@@ -16,7 +16,7 @@ namespace Flujo
         public async Task<IEnumerable<Marca>> Obtener()
         {
             var resultado = await _marcaDA.Obtener();
-            return await resultado;
+            return resultado;
         }
     }
 }
